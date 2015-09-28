@@ -1,0 +1,25 @@
+{
+  "name": "Sam",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaeljweaver/Sam.git"
+  },
+  "author": "michaelw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeljweaver/Sam/issues"
+  },
+  "homepage": "https://github.com/michaeljweaver/Sam",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.6.0"
+  }
+}
