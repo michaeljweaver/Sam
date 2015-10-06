@@ -20,6 +20,8 @@
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.3",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-compass": "~0.6.0"
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-cordova": "^0.1.18",
+    "grunt-phonegap": "^0.15.2"
   }
 }

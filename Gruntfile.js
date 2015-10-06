@@ -12,11 +12,27 @@ module.exports = function(grunt) {
     watch: {
       files: ['<%= jshint.files %>'],
       tasks: ['jshint']
+    },
+    cordova: {
+      options: {
+        // Task-specific options go here.
+      },
+      your_target: {
+        // Target-specific file lists and/or options go here.
+      },
+    },
+    phonegap: {
+      config: {
+        rootL 'src'
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-cordova');
+  grunt.loadNpmTasks('grunt-phonegap');
+
 
   grunt.registerTask('default', ['jshint']);
 
